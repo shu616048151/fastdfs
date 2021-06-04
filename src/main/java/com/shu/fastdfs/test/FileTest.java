@@ -13,7 +13,7 @@ import java.io.File;
 public class FileTest {
 
   public static void main(String[] args) throws Exception {
-      File file=new File("C:\\Users\\Administrator\\Desktop\\1.png");
+      File file=new File("C:\\Users\\舒细兵\\Desktop\\hehe_release_1.0_v3.apk");
       String url = FileUtil.upload("1", file);
       System.out.println(url);
   }
